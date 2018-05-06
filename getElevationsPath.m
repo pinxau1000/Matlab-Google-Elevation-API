@@ -91,6 +91,7 @@ nPos = numel(resolution);
 assert(nPos>0, 'Resolution can not be empty')
 assert(nPos<2, 'Resolution must be one element')
 assert(resolution>1, 'Resolution must be at least 2')
+assert(resolution<513, 'Resolution is limited to 512')
 
 assert(latitude1 >= -90 && latitude1 <= 90 && latitude2 >= -90 && latitude2 <= 90, 'Latitudes has to be between -90 and 90')
 assert(longitude1 >=-180 && longitude1 <=180 && longitude2 >=-180 && longitude2 <=180, 'Longitudes has to be between -180 and 180')
