@@ -7,7 +7,7 @@ clearvars;
 clc;
 
 SAMPLES = 10;
-API_KEY = 'YOUR-API-KEY';
+API_KEY = 'YOUR-API-KEY';   % Read https://developers.google.com/maps/documentation/elevation/get-api-key 
 
 Coord1 = [39.549937, -8.819350];
 Coord2 = [39.505018, -8.761150];
