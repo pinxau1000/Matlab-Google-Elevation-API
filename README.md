@@ -1,6 +1,8 @@
 # Matlab-Google-Elevation-API
 Matlab Script to get a elevation profile along a path defined between two points with n resolution samples.
 
+![image1](https://raw.githubusercontent.com/pinxau1000/Matlab-Google-Elevation-API/master/Example_Script_1.png)
+
 ## How to use?
 Just download getElevationsPath.m file from this repository and paste it on the folder of the script that is calling this function.
 
@@ -136,3 +138,5 @@ resolution samples.
 
 
 ```
+
+![image2](https://raw.githubusercontent.com/pinxau1000/Matlab-Google-Elevation-API/master/Example_Script_2.png)
